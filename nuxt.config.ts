@@ -7,5 +7,7 @@ export default defineNuxtConfig({
     preset: 'cloudflare-pages'
   },
 
-  modules: ['@nuxt/ui']
+  modules: ['@nuxt/ui'],
+
+  css: ['~/assets/css/main.css']
 })
